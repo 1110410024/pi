@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+/*學號: 1110410024姓名: 許欣婷*/
 using System.Collections;
 using System;
 
@@ -35,7 +35,7 @@ class Program
     }
 
     // 主程式
-    static void Main(string[] args)/*學號: 1110410024姓名: 許欣婷*/
+    static void Main(string[] args)
     {
         Console.Write("請輸入圓的半徑: ");
         if (!double.TryParse(Console.ReadLine(), out double radius))
